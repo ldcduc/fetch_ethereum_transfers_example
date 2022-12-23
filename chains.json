@@ -1,0 +1,284 @@
+[
+  {
+    "chainId": 42161,
+    "name": "Arbitrum",
+    "code": "arbitrum",
+    "iconURL": "https://kyberswap.com/static/media/arbitrum-network.ec8e5080.svg",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-arbitrum",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/arbitrum-blocks",
+      "classic": "https://arbitrum-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-arbitrum",
+      "elastic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-arbitrum-one",
+      "startBlock": {
+        "classic": 7238399,
+        "elastic": 14137734
+      }
+    },
+    "gasToken": {
+      "id": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/arbitrum",
+    "fullNode": "https://arbitrum.kyberengineering.io"
+  },
+  {
+    "chainId": 1313161554,
+    "name": "Aurora",
+    "code": "aurora",
+    "iconURL": "https://kyberswap.com/static/media/aurora-network.94ddad5a.svg",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-aurora",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/aurora-blocks",
+      "classic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-aurora"
+    },
+    "gasToken": {
+      "id": "0xc9bdeed33cd01541e1eed10f90519d2c06fe3feb",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/aurora",
+    "fullNode": "https://aurora.kyberengineering.io"
+  },
+  {
+    "chainId": 43114,
+    "name": "Avalanche",
+    "code": "avalanche",
+    "iconURL": "https://kyberswap.com/static/media/avax-network.30dfa545.png",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-avalanche",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/avalanche-blocks",
+      "classic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-avalanche",
+      "elastic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-avalanche",
+      "classicStaking": "https://avalanche-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-classic-staking-avalanche",
+      "startBlock": {
+        "elastic": 15795577
+      }
+    },
+    "gasToken": {
+      "id": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/avalanche",
+    "fullNode": "https://avalanche.kyberengineering.io",
+    "archiveNode": "https://avalanche.kyberengineering.io/archive"
+  },
+  {
+    "chainId": 56,
+    "name": "BNB Chain",
+    "code": "bsc",
+    "iconURL": "https://bscscan.com/images/svg/brands/bnb.svg",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-bsc",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/bsc-blocks",
+      "classic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-bsc",
+      "elastic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-bsc",
+      "classicStaking": "https://bsc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-classic-staking-bsc",
+      "startBlock": {
+        "elastic": 18532979
+      }
+    },
+    "gasToken": {
+      "id": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 8
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/bsc",
+    "fullNode": "https://bsc.kyberengineering.io",
+    "archiveNode": "https://bsc.kyberengineering.io/archive"
+  },
+  {
+    "chainId": 199,
+    "name": "BitTorrent",
+    "code": "bttc",
+    "iconURL": "https://bttcscan.com/images/svg/brands/main_white.png",
+    "graphQL": {
+      "aggregator": "https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-bttc",
+      "blocks": "https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/bttc-blocks",
+      "classic": "https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-bttc",
+      "elastic": "https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-bttc",
+      "classicStaking": "https://bttc-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-classic-staking-bttc",
+      "startBlock": {
+        "elastic": 7570792
+      }
+    },
+    "gasToken": {
+      "id": "0x8d193c6efa90bcff940a98785d1ce9d093d3dc8a",
+      "name": "BitTorrent",
+      "symbol": "BTT",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/bttc",
+    "fullNode": "https://bttc.kyberengineering.io",
+    "archiveNode": "https://bttc.kyberengineering.io/archive"
+  },
+  {
+    "chainId": 25,
+    "name": "Cronos",
+    "code": "cronos",
+    "iconURL": "https://kyberswap.com/static/media/cronos-network-dark.75ea8de5.svg",
+    "graphQL": {
+      "aggregator": "https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-cronos",
+      "blocks": "https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/cronos-blocks",
+      "classic": "https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-cronos",
+      "elastic": "https://cronos-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-cronos",
+      "startBlock": {
+        "elastic": 3152289
+      }
+    },
+    "gasToken": {
+      "id": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+      "name": "Cronos",
+      "symbol": "CRO",
+      "decimals": 8
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/cronos",
+    "fullNode": "https://cronos.kyberengineering.io"
+  },
+  {
+    "chainId": 1,
+    "name": "Ethereum",
+    "code": "ethereum",
+    "iconURL": "https://kyberswap.com/static/media/mainnet-network.0da9cde8.svg",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-ethereum",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/ethereum-blocks",
+      "classic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-ethereum",
+      "elastic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-mainnet",
+      "classicStaking": "https://api.thegraph.com/subgraphs/name/lehainam-dev/kyber-classic-staking-ethereum",
+      "curve-fi": "https://api.thegraph.com/subgraphs/name/ldcduc/curvefi-subgraph",
+      "curve-lp": "https://api.thegraph.com/subgraphs/name/blocklytics/curve",
+      "curve-pools": "https://api.thegraph.com/subgraphs/name/ldcduc/curve-pools",
+      "startBlock": {
+        "elastic": 14932475
+      }
+    },
+    "gasToken": {
+      "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/ethereum",
+    "fullNode": "https://ethereum.kyberengineering.io",
+    "archiveNode": "https://ethereum.kyberengineering.io/archive"
+  },
+  {
+    "chainId": 250,
+    "name": "Fantom",
+    "code": "fantom",
+    "iconURL": "https://ftmscan.com/images/svg/brands/fantom.svg",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-fantom",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/fantom-blocks",
+      "classic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-fantom",
+      "elastic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-fantom",
+      "startBlock": {
+        "elastic": 40124587
+      }
+    },
+    "gasToken": {
+      "id": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/fantom",
+    "fullNode": "https://fantom.kyberengineering.io"
+  },
+  {
+    "chainId": 42262,
+    "name": "Oasis",
+    "code": "oasis",
+    "iconURL": "https://cryptologos.cc/logos/oasis-network-rose-logo.svg",
+    "graphQL": {
+      "aggregator": "https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-oasis",
+      "blocks": "https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/oasis-blocks",
+      "classic": "https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-oasis",
+      "elastic": "https://oasis-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-oasis",
+      "startBlock": {
+        "classic": 784336,
+        "elastic": 1656922
+      }
+    },
+    "gasToken": {
+      "id": "0x21c718c22d52d0f3a789b752d4c2fd5908a8a733",
+      "name": "Oasis Network",
+      "symbol": "ROSE",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/oasis",
+    "fullNode": "https://oasis.kyberengineering.io"
+  },
+  {
+    "chainId": 10,
+    "name": "Optimism",
+    "code": "optimism",
+    "iconURL": "https://kyberswap.com/static/media/optimism-network.efbb634f.svg",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-optimism",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/optimism-blocks",
+      "classic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-optimism",
+      "elastic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-optimism",
+      "startBlock": {
+        "classic": 12876458
+      }
+    },
+    "gasToken": {
+      "id": "0x4200000000000000000000000000000000000006",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/optimism"
+  },
+  {
+    "chainId": 137,
+    "name": "Polygon",
+    "code": "polygon",
+    "iconURL": "https://polygonscan.com/images/svg/brands/polygon.svg",
+    "graphQL": {
+      "aggregator": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-aggregator-polygon",
+      "blocks": "https://api.thegraph.com/subgraphs/name/kybernetwork/polygon-blocks",
+      "classic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-exchange-polygon",
+      "elastic": "https://api.thegraph.com/subgraphs/name/kybernetwork/kyberswap-elastic-matic",
+      "classicStaking": "https://polygon-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyber-classic-staking-polygon",
+      "startBlock": {
+        "elastic": 29347467
+      }
+    },
+    "gasToken": {
+      "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "name": "Polygon",
+      "symbol": "MATIC",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/polygon",
+    "fullNode": "https://polygon.kyberengineering.io",
+    "archiveNode": "https://polygon.kyberengineering.io/archive"
+  },
+  {
+    "chainId": 106,
+    "name": "Velas",
+    "code": "velas",
+    "iconURL": "https://cryptologos.cc/logos/velas-vlx-logo.svg",
+    "graphQL": {
+      "aggregator": "https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-aggregator-velas",
+      "blocks": "https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/velas-blocks",
+      "classic": "https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-exchange-velas",
+      "elastic": "https://velas-graph.kyberengineering.io/subgraphs/name/kybernetwork/kyberswap-elastic-velas"
+    },
+    "gasToken": {
+      "id": "0xc579d1f3cf86749e05cd06f7ade17856c2ce3126",
+      "name": "Velas",
+      "symbol": "VLX",
+      "decimals": 18
+    },
+    "aggregator": "https://aggregator-api.kyberswap.com/velas"
+  }
+]
